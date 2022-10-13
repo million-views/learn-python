@@ -1,5 +1,5 @@
 # Exploring Python (on your own)
-Python is an `opiniated` programming language. So much so that it has its
+Python is an `opinionated` programming language. So much so that it has its
 own [`zen`](https://peps.python.org/pep-0020/).
 
 You can find the `what` and `why` of Python by reading up on
@@ -29,11 +29,11 @@ When searching for a topic on Python, remember to suffix your search by adding
 ## Assignment
 - Download and print [Python 3.x Cheat Sheet](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf).
 - Try out the basic syntax provided in the cheat sheet on your `replit`.
-- Grading is done by those who collect the most syntax errors: 
+- Grading is done by the amount of syntax errors collected: 
   - 0   syntax errors: F
   - 1   syntax errors: E
   - 2   syntax errors: D
   - 3   syntax errors: C
   - 4   syntax errors: B
-  - > 5 syntax errors: A
+  - 5+ syntax errors: A
 - Post your syntax errors in the group to claim credit ;-)
