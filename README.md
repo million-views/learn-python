@@ -30,7 +30,7 @@ automation.
 
 A minimum threshold for success (for this cohort) is to be able read and 
 enhance code written by others. A wildly successful outcome is to be able
-to build a portfolio dashboard, automate an investment pipeline or anything 
+to build a portfolio dashboard, automate an investment pipeline or anything
 else that may tickle our imagination.
 
 # Weekly progress and assignments
