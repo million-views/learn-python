@@ -26,7 +26,7 @@ Prior programming or cooking experience helps but is not a requirement.
 ## What will we be learning
 The syllabus is not fixed. We are going to discover the paths that lead 
 us into the application of Python for data analysis, investing, and  
-automation. 
+automation.
 
 A minimum threshold for success (for this cohort) is to be able read and 
 enhance code written by others. A wildly successful outcome is to be able
@@ -34,4 +34,6 @@ to build a portfolio dashboard, automate an investment pipeline or anything
 else that may tickle our imagination.
 
 # Weekly progress and assignments
-1. [Exploring Python \(on your own\)](week-01/01-exploring-python.md)
+1. [Exploring Python \(on your own\)](week-01/exploring-python.md)
+2. [Programming concepts to get you going](week-02/programming-concepts.md)
+
