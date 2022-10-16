@@ -119,8 +119,8 @@ Therefore all objects inherit special methods imparted to the object
 from a **God** class; of interest are those methods prefixed and 
 suffixed using two underscores. These are called `dunder` methods, short
 for `double underscore`. These are required and are key to the elegant
-syntax of Python.  A lot of decisions to facilitate writing  
-`clean code` is already made for us by the designers of the language.
+syntax of Python.  A lot of decisions to facilitate writing `clean code`
+is already made for us by the designers of the language.
 
 For instance in the code below, the short and sweet **for** loop syntax
 is possible because Python knows to invoke `__iter__` dunder method 
@@ -232,7 +232,7 @@ All of the above is easier said than done!
 # Assignment for week 2
 - Your assignment is to compute and return the average closing price for
   a given stock symbol. You are provided the driver code and a shell 
-  of a function named `avg` in [`finpack.py`](week-02/code/finpack.py)
+  of a function named `avg` in [`finpack.py`](code/finpack.py)
   that fetches stock data for you; all you have to do is to compute
   the average.
 - Read the notes and come prepared to answer the following questions:
