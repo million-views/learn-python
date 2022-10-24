@@ -30,7 +30,8 @@ def avg(symbol, points=50, what='close'):
         # by following the links given under references above
         # and return the mean value. Note this is not the rolling
         # average which we will work on in the next class.
-        mean = 'your assignment work goes here!'
+        # mean = 'your assignment work goes here!'
+        mean = round(data['Close'].mean(), 2)
     elif what == 'open':
         # TODO: we'll fill the remaining options in next class
         # or if you want to get ahead, go for it.
