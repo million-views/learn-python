@@ -263,8 +263,8 @@ Good luck!
 [1]: <https://en.m.wikipedia.org/wiki/Association_rule_learning/> (Association rule mining)
 [2]: <https://en.wikipedia.org/wiki/Apriori_algorithm> (Apriori algorithm)
 [3]: <https://pypi.org/project/efficient-apriori/>
-[4]: <week-03/code> (code for this week)
-[5]: <week-03/code/papack.py> (assignment file)
+[4]: <./code> (code for this week)
+[5]: <./code/papack.py> (assignment file)
 
 - [Association rule mining][1]
 - [Apriori algorithm for frequent item set mining][2]
