@@ -200,15 +200,16 @@ or the `set()` constructor. **Note**: since `{}` is also used for `dict`
 literals, an empty set can only be defined using the constructor method.
 
 Python sets abstract almost all of the properties in mathematical set
-theory and allowing us to write concise code. The one exception is
+theory, allowing us to write concise code. The one exception is
 the complement of a set in set theory for which there is no equivalent
-in Python, understandably since a complement of a set is everything 
+in Python, understandably, since a complement of a set is everything 
 *not* in the set but is part of a `universal set`. Python doesn't know
 what that is for your problem domain. 
 
-It is trivial to define a `complement` if you know what the `universal set` of your problem domain is. For example if the universe is the set of
-`fruits`, then the complement of `apples` is simply the difference
-method of universal set (i.e `fruits`).
+It is trivial to define a `complement` if you know what the 
+`universal set` of your problem domain is. For example if the universe
+is the set of `fruits`, then the complement of `apples` is simply the
+difference method of universal set (i.e `fruits`).
 
 ```python
 # Universe
@@ -229,8 +230,9 @@ This week assignment will make us deep dive into one of the earliest
 applications of data mining (a branch or a subset of data science) - 
 [**cross selling**][1].
 
-It also goes by many other names such as `recommender`, `market basket analysis`, `predictive analytics` and more formally known as 
-`association rule mining`.
+It also goes by many other names such as `recommender`, 
+`market basket analysis`, `predictive analytics` and more formally
+known as `association rule mining`.
 
 An image is of course worth a thousand words:
   ![Buy it with](./buy-it-with.png)
@@ -241,28 +243,29 @@ feasible. A naive implementation would take inordinate amount of time to
 compute once the itemset count crosses into the 100s.
 
 Python makes writing systems as the one above, seen on sites like
-Amazon almost too easy thanks to a wealth of libraries. The 
-challenge is not in the algorithms but in scaling the solution,
+Amazon almost too easy, thanks to a wealth of libraries. The 
+challenge is not in coding the algorithms but in scaling the solution,
 which thankfully is not in the scope of this class.
 
 To make it engaging, there are two levels to unlock for this assignment.
-The first level is to complete it by using a library. The second level 
-is to implement the critical function ourselves by bringing to bear all
-that we learned about `lists`, `tuples`, `sets` and `dicts`!
+The first level is to complete it by using a [library][3]. The second
+level is to implement the critical function ourselves by bringing to 
+bear all that we learned about `lists`, `tuples`, `sets` and `dicts`!
 
-As usual the [`code`][2] folder contains `main.py` which is the driver
+As usual the [`code`][4] folder contains `main.py` which is the driver
 program that sets up the details and our `predictive analytics` module
-[`papack.py`][3], that has the steps outlined in comments that you will
+[`papack.py`][5], that has the steps outlined in comments that you will
 need to complete.
 
 Good luck!
 
 # References
 [1]: <https://qymatix.de/en/cross-selling-example-excel-analytics/> (Cross Selling)
-[2]:<https://en.wikipedia.org/wiki/Apriori_algorithm> (Apriori algorithm)
-[3]: <week-03/code> (code for this week)
-[4]: <week-03/code/papack.py> (assignment file)
+[2]: <https://en.wikipedia.org/wiki/Apriori_algorithm> (Apriori algorithm)
+[3]: <https://pypi.org/project/efficient-apriori/>
+[4]: <week-03/code> (code for this week)
+[5]: <week-03/code/papack.py> (assignment file)
 
 - [Apriori algorithm for frequent item set mining][2]
 - [Python lists, tuples, sets and dicts](https://docs.python.org/3/tutorial/datastructures.html)
-
+- [Efficient Apriori Library][3]
