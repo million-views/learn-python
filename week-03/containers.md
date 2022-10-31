@@ -228,7 +228,7 @@ print('not apples: ', complement(apples))
 # Assignment for week 3
 This week assignment will make us deep dive into one of the earliest
 applications of data mining (a branch or a subset of data science) - 
-[**cross selling**][1].
+[**cross selling**, **promotional  pricing**, or **product placements**][1].
 
 It also goes by many other names such as `recommender`, 
 `market basket analysis`, `predictive analytics` and more formally
@@ -260,12 +260,13 @@ need to complete.
 Good luck!
 
 # References
-[1]: <https://qymatix.de/en/cross-selling-example-excel-analytics/> (Cross Selling)
+[1]: <https://en.m.wikipedia.org/wiki/Association_rule_learning/> (Association rule mining)
 [2]: <https://en.wikipedia.org/wiki/Apriori_algorithm> (Apriori algorithm)
 [3]: <https://pypi.org/project/efficient-apriori/>
 [4]: <week-03/code> (code for this week)
 [5]: <week-03/code/papack.py> (assignment file)
 
+- [Association rule mining][1]
 - [Apriori algorithm for frequent item set mining][2]
 - [Python lists, tuples, sets and dicts](https://docs.python.org/3/tutorial/datastructures.html)
 - [Efficient Apriori Library][3]
