@@ -36,4 +36,5 @@ else that may tickle our imagination.
 # Weekly progress and assignments
 1. [Exploring Python \(on your own\)](week-01/exploring-python.md)
 2. [Programming concepts to get you going](week-02/programming-concepts.md)
+3. [Python containers in a real world application](week-03/containers.md)
 
