@@ -232,7 +232,7 @@ applications of data mining (a branch or a subset of data science) -
 
 It also goes by many other names such as `recommender`, 
 `market basket analysis`, `predictive analytics` and more formally
-known as `association rule mining`.
+known as [`association rule mining`][1].
 
 An image is of course worth a thousand words:
   ![Buy it with](./buy-it-with.png)
