@@ -8,7 +8,7 @@ isolate class assignment instructions in one place.
 
 def analyze(transactions, min_support=0.5, min_confidence=1, uselib=True):
     """
-    assignment (level 1):
+    assignment (level 1, make code changes in week-3/code/papack.py):
       - import `apriori` function from `efficient_apriori` library
       - study the `efficient_apriori` library doc,
       - call the `apriori` function with arguments received in this function
