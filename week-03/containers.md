@@ -168,8 +168,8 @@ constructor method.
 # any problem. The key needs to be unique and hashable, while the
 # value can be anything
 fruits = {
-  'apples': {'🍎', '🍏'}, 
-  'berries': {'🍓', '🫐'},
+  'apples': ['🍎', '🍏'], 
+  'berries': ('🍓', '🫐'),
   'exotics': {'🥝', '🥭', '🍍', '🥥'},
   'outlier': "I am not fruit",
   'exception': 5,
