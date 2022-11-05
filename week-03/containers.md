@@ -1,7 +1,7 @@
 # Containers: lists, tuples, sets and dictionaries
 Python offers several built-in container types complemented by
 syntactic sugar that allows us to model complex problem space
-with minimal code. 
+with minimal code. More Details
 
 This week we explored the fundamental container types: lists,
 tuples, sets and dictionaries; and how they may be used in various
