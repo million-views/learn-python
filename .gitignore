@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore work in progress code
+*-solution.py
+
 # Distribution / packaging
 .Python
 build/
